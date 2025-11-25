@@ -1,0 +1,314 @@
+* {
+
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+  
+
+}
+
+
+
+
+
+body{
+ 
+  
+  
+}
+
+nav{
+    display: flex;
+    gap: 2rem;
+    background-color: rgb(43, 18, 18);
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    margin-left: 23px;
+    font-size: 20px;
+    
+}
+
+.menu-btn{
+    background: none;
+    border: none;
+    color: white;
+    font-size: 40px;
+    cursor: pointer;
+    display: none;
+}
+
+
+header{
+    
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    gap: 1rem;
+     background-color: rgb(43, 18, 18);
+   
+}
+
+.logo img{
+  height: 50px;
+  width: 50px;
+  border-radius: 20px;
+}
+
+.hero{
+   background: url("images/hero_coffee.webp") no-repeat center/cover;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+  padding-top: 60px;
+  background-size: cover;
+  
+}
+
+.hero-text h1{
+    font-size: 50px;
+    margin-top: 120px;
+}
+
+
+.btn a{
+  text-decoration: none;
+  color: white;
+  background-color: rgba(222, 184, 135, 0.719);
+  padding: 15px;
+  font-size: 20px;
+  border-radius: 15px;
+}
+
+.btn1{
+  margin-left: 20px;
+}
+
+.btn2{
+  margin-left: 20px;
+}
+
+
+.menu {
+
+  padding: 80px 20px;
+  background: #ebdaa3;
+  text-align: center;
+
+}
+
+.menu h2 {
+  margin-bottom: 30px;
+  font-size: 32px;
+
+}
+
+.menu-items {
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+
+}
+
+.menu .item {
+  background: #ebeadf;
+  padding: 40px;
+  border-radius: 10px;
+  width: 250px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+
+}
+
+.menu .item h3 {
+  margin-bottom: 10px;
+
+}
+
+.menu .item img{
+  width: 200px;
+  border-radius: 10px;
+  align-items: center;
+  text-align: center;
+ position: relative;
+ right: 1vw;
+}
+
+.menu .item a {
+  color: #f39c12;
+  font-weight: bold;
+  text-decoration: none;
+  background-color: #ebdaa3;
+  border-radius: 15px;
+  padding: 10px;
+
+}
+
+
+
+.menu-items :hover{
+   transform: scale(1.05);
+}
+
+
+.choose{
+  
+  padding: 80px 20px;
+  background: white;
+  text-align: center;
+}
+
+.people-items{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.choose h2{
+  margin-bottom: 30px;
+  font-size: 32px;
+}
+
+.choose .people{
+  background: #ebeadf;
+  padding: 40px;
+  border-radius: 10px;
+  width: 250px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.choose .people img{
+  width: 200px;
+  border-radius: 10px;
+  align-items: center;
+  text-align: center;
+ position: relative;
+ right: 1vw;
+}
+
+.choose .people a {
+  color: #f39c12;
+  font-weight: bold;
+  text-decoration: none;
+  background-color: #ebdaa3;
+  border-radius: 15px;
+  padding: 10px;
+
+}
+
+
+.people-items :hover{
+   transform: scale(1.05);
+}
+
+.customers{
+  padding: 80px 20px;
+  background: #ebdaa3;
+  text-align: center;
+}
+
+.service{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.customers .CS{
+  background: #ebeadf;
+  padding: 40px;
+  border-radius: 10px;
+  width: 250px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.customers h3{
+  margin-bottom: 30px;
+  font-size: 32px;
+}
+
+.customers .CS img{
+  width: 120px;
+  border-radius: 15px;
+}
+
+
+/* FOOTER BACKGROUND */
+.footer {
+    background: #4a2d26;   /* Coffee brown */
+    padding: 40px 20px;
+    text-align: center;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+/* TITLE */
+.footer-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* SOCIAL BUTTONS */
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+.social-links a {
+    background: black;
+    padding: 8px 15px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.social-links a:hover {
+    background: #6f4e37;
+}
+
+
+.footer-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    margin-bottom: 30px;
+}
+
+.footer-left p,
+.footer-right p,
+.footer-right h3 {
+    margin: 3px 0;
+    color: white;
+}
+
+
+.vertical-line {
+    width: 2px;
+    height: 70px;
+    background-color: white;
+}
+
+.footer-divider {
+    border: none;
+    border-top: 1px solid #e2e2e2;
+    margin: 30px auto;
+    width: 20%;
+}
+
+.footer-bottom {
+    font-size: 14px;
+}
