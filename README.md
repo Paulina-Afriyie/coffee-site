@@ -34,7 +34,7 @@ The goal of the project is to practice **web design and development concepts**, 
 coffee-landing-page
 │
 ├── index.html
-├── style.css
+├── index.css
 └── README.md
 
 ---
